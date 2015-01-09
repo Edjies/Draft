@@ -21,6 +21,9 @@ public class MainActivity extends ListActivity {
 		additem("OpenGL", "com.phb.draft.MainOpenGLActivity");
 		additem("Audio", "com.phb.draft.media.AudioRecoderActivity");
 		additem("Test", "com.phb.draft.TestActivity");
+		additem("CheckBox", "com.phb.draft.demo.view.CheckBoxDemo");
+		additem("ListView", "com.phb.draft.demo.view.ListViewDemo");
+		additem("Slide", "com.phb.draft.demo.view.SlideDemo");
 		setListAdapter(new SimpleAdapter(this, datas, android.R.layout.simple_list_item_1,new String[]{ "title"}, new int[]{android.R.id.text1}));	
 	}
 	

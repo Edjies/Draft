@@ -1,13 +1,10 @@
 package com.phb.draft.demo.view;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.VelocityTracker;
 
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.phb.draft.R;
 import com.phb.draft.view.SlideView;

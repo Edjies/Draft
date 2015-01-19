@@ -7,5 +7,9 @@
     <string name="title_activity_custom_view">CustomViewActivity</string>
     <string name="title_activity_check_box_demo">CheckBoxDemo</string>
     <string name="title_activity_slide_demo">SlideDemo</string>
+    <string name="title_activity_property_animation_demo">PropertyAnimationDemo</string>
+    <string name="title_activity_main_fragment">MainFragmentActivity</string>
+    <string name="title_activity_intent_demo">IntentDemo</string>
+    <string name="title_activity_fragment_demo">FragmentDemo</string>
 
 </resources>

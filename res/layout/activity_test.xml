@@ -3,18 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-
-    <Button
-        android:id="@+id/bt_show_dialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="doClick"
-        android:text="show dialog" />
-    
-    <EditText
-        android:id="@+id/et" 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hello_world"/>
-
+	<com.phb.draft.view.EventDemoView
+	    android:id="@+id/mBt" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="press me"/>
+	<TextView
+	    android:id="@+id/tv_log" 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/shape_radial_gradient"/>
 </LinearLayout>

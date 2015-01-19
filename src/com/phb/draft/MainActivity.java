@@ -24,6 +24,8 @@ public class MainActivity extends ListActivity {
 		additem("CheckBox", "com.phb.draft.demo.view.CheckBoxDemo");
 		additem("ListView", "com.phb.draft.demo.view.ListViewDemo");
 		additem("Slide", "com.phb.draft.demo.view.SlideDemo");
+		additem("Property Animation", "com.phb.draft.demo.animation.PropertyAnimationDemo");
+		additem("fragmentdemo", "com.phb.draft.component.FragmentDemo");
 		setListAdapter(new SimpleAdapter(this, datas, android.R.layout.simple_list_item_1,new String[]{ "title"}, new int[]{android.R.id.text1}));	
 	}
 	

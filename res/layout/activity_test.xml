@@ -3,14 +3,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-	<com.phb.draft.view.EventDemoView
-	    android:id="@+id/mBt" 
+	<LinearLayout 
 	    android:layout_width="match_parent"
 	    android:layout_height="wrap_content"
-	    android:text="press me"/>
-	<TextView
-	    android:id="@+id/tv_log" 
+	    android:orientation="horizontal">
+	    <EditText
+	        android:id="@+id/et_name" 
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:hint="name"/>
+	    <EditText
+	        android:id="@+id/et_sex" 
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:hint="sex"/>
+	    <EditText
+	        android:id="@+id/et_age" 
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="number"
+	        android:hint="age"/>
+	    <Button
+	        android:id="@+id/bt_insert" 
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="insert"/>
+	</LinearLayout>
+	<LinearLayout 
 	    android:layout_width="match_parent"
-	    android:layout_height="match_parent"
-	    android:background="@drawable/shape_radial_gradient"/>
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <EditText 
+	        android:id="@+id/et_search_name"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:hint="name"/>
+	    <Button 
+	        android:id="@+id/bt_search"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="search"/>
+	</LinearLayout>
 </LinearLayout>

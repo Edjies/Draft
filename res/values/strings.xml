@@ -11,5 +11,6 @@
     <string name="title_activity_main_fragment">MainFragmentActivity</string>
     <string name="title_activity_intent_demo">IntentDemo</string>
     <string name="title_activity_fragment_demo">FragmentDemo</string>
+    <string name="title_activity_intent_image_demo">IntentImageDemo</string>
 
 </resources>

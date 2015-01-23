@@ -57,6 +57,10 @@
             android:name="com.phb.draft.component.FragmentDemo"
             android:label="@string/title_activity_fragment_demo" >
         </activity>
+        <activity
+            android:name="com.phb.draft.component.IntentImageDemo"
+            android:label="@string/title_activity_intent_image_demo" >
+        </activity>
     </application>
 
 </manifest>
